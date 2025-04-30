@@ -1,5 +1,9 @@
 from FCFS import fcfs
 from SJF import sjf
+from srtf import srtf
+from round_robin import round_robin
+import copy
+
 
 class Process:
     def __init__(self, pid, arrival_time, burst_time, priority=None, queue_level=None):
